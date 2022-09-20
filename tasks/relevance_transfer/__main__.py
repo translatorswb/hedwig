@@ -98,6 +98,8 @@ if __name__ == '__main__':
     # Set default configuration in args.py
     args = get_args()
 
+    print("ALPALPALP args.model", args.model)
+
     if torch.cuda.is_available() and not args.cuda:
         print('Warning: Using CPU for training')
 

@@ -15,7 +15,11 @@ PRETRAINED_MODEL_ARCHIVE_MAP = {
     'bert-base-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-cased'),
     'bert-large-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-large-cased'),
     'bert-base-multilingual-uncased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-uncased'),
-    'bert-base-multilingual-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-cased')
+    'bert-base-multilingual-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-cased'),
+    'muril-large-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'muril-large-cased'),
+    'muril-base-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'muril-base-cased'),
+    'IndicBERTv2-alpha': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'IndicBERTv2-alpha')
+
 }
 PRETRAINED_VOCAB_ARCHIVE_MAP = {
     'bert-base-uncased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-uncased-vocab.txt'),
@@ -23,5 +27,8 @@ PRETRAINED_VOCAB_ARCHIVE_MAP = {
     'bert-base-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-cased-vocab.txt'),
     'bert-large-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-large-cased-vocab.txt'),
     'bert-base-multilingual-uncased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-uncased-vocab.txt'),
-    'bert-base-multilingual-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-cased-vocab.txt')
+    'bert-base-multilingual-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'bert-base-multilingual-cased-vocab.txt'),
+    'muril-large-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'muril-large-cased', 'vocab.txt'),
+    'muril-base-cased': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'muril-base-cased', 'vocab.txt'),
+    'IndicBERTv2-alpha': os.path.join(MODEL_DATA_DIR, 'bert_pretrained', 'IndicBERTv2-alpha', 'dict.txt')
 }
